@@ -161,4 +161,120 @@ body{
     font-size:15px;
     line-height:24px;
 }
+.pricing{
+    padding:90px 80px;
+    background:#fff;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.pricing-subtitle{
+    text-align:center;
+    color:#777;
+    font-size:15px;
+    margin-bottom:50px;
+}
+
+.price-cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.p-card{
+    width:340px;
+    padding:22px;
+    border:1px solid #e2e2e2;
+    border-radius:10px;
+    background:#fff;
+}
+
+.p-card h5{
+    color:#888;
+    font-size:12px;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.p-card h1{
+    font-size:50px;
+    margin-bottom:5px;
+}
+
+.p-card span{
+    font-size:14px;
+    color:#888;
+}
+
+.p-card hr{
+    margin:18px 0;
+    border:none;
+    border-top:1px solid #e5e5e5;
+}
+
+.p-card ul{
+    list-style:none;
+    margin-bottom:25px;
+}
+
+.p-card ul li{
+    font-size:15px;
+    color:#444;
+    margin-bottom:14px;
+    position:relative;
+    padding-left:18px;
+}
+
+.p-card ul li::before{
+    content:"•";
+    color:#2563eb;
+    position:absolute;
+    left:0;
+}
+
+.p-card button{
+    width:100%;
+    padding:14px;
+    border:1px solid #2563eb;
+    border-radius:6px;
+    background:#fff;
+    color:#2563eb;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.p-card button:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+
+.pro{
+    background:#0f1c2d;
+    color:#fff;
+}
+
+
+.pro span,
+.pro ul li{
+    color:#ddd;
+}
+.pro h5{
+    color: #0d6efd;
+}
+.pro hr{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.pro button{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+}
 
